@@ -9,8 +9,8 @@
 		<artifactId>clojure-pom</artifactId>
 		<version>0.0.3</version>
 	</parent>
-	
-	
+
+
 	<url>https://github.com/mikera/${project.artifactId}.git</url>
 
 	<scm>
@@ -33,6 +33,40 @@
 			<url>http://clojars.org/repo</url>
 		</repository>
 	</repositories>
-	
+
+	<dependencies>
+		<dependency>
+			<groupId>net.sf.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>2.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.miglayout</groupId>
+			<artifactId>miglayout</artifactId>
+			<version>3.7.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.clojure</groupId>
+			<artifactId>math.numeric-tower</artifactId>
+			<version>0.0.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.clojure</groupId>
+			<artifactId>tools.macro</artifactId>
+			<version>0.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>net.mikera</groupId>
+			<artifactId>mikera</artifactId>
+			<version>1.4.2</version>
+		</dependency>
+		<dependency>
+			<groupId>net.mikera</groupId>
+			<artifactId>cljunit</artifactId>
+			<version>0.1.4</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
 
 </project>
