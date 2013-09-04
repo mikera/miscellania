@@ -12,7 +12,7 @@ class TestTypes {
 		public String m(Object b) { return "O"; }
 	}
 	public static void main(String[] args) {
-		C c=new C();
+		// C c=new C();
 		
 		// new D().m(c);
 		
