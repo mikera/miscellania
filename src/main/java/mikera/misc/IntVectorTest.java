@@ -1,6 +1,4 @@
 package mikera.misc;
-import mikera.util.*;
-
 
 public class IntVectorTest {
 

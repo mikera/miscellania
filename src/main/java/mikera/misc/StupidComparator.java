@@ -9,6 +9,7 @@ public class StupidComparator {
 		
 		// this is an inner class that acts like a closure and uses one bound value
 		Comparator<Integer> comp=new Comparator<Integer>() {
+			@Override
 			public int compare(Integer a, Integer b) {
 				int result=0;
 				if (a<numberToCompareTo) result=result-1;

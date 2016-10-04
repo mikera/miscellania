@@ -3,6 +3,7 @@ import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.*;
 
+@SuppressWarnings("serial")
 public class AWTTest extends Applet {
 
 	public AWTTest() {
@@ -10,6 +11,7 @@ public class AWTTest extends Applet {
 		add(b);
 		
 		b.addActionListener(new ActionListener() {
+			@Override
 			public void actionPerformed(ActionEvent e) {
 				System.out.println("Hello!!!");
 			}
